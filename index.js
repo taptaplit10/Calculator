@@ -9,6 +9,9 @@ let display = document.getElementById('display');
 
 
 Di.addEventListener('click', calculate);
+Multi.addEventListener('click', calculat);
+Ad.addEventListener('click', calcula);
+Su.addEventListener('click', calcul);
 
 
 function calculate(){
@@ -23,7 +26,7 @@ function calculate(){
 
 
 
-Multi.addEventListener('click', calculat);
+
 
 
 function calculat(){
@@ -36,7 +39,7 @@ function calculat(){
   
 }
 
-Ad.addEventListener('click', calcula);
+
 
 
 function calcula(){
@@ -52,7 +55,7 @@ function calcula(){
 
 
 
-Su.addEventListener('click', calcul);
+
 
 
 function calcul(){
