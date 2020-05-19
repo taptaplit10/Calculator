@@ -1,3 +1,5 @@
+alert("DO NOT COPY")
+
 let S = document.getElementById('Su');
 let A = document.getElementById('Ad');
 let D = document.getElementById('Di');
