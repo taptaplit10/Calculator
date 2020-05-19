@@ -4,14 +4,14 @@ let S = document.getElementById('Su');
 let A = document.getElementById('Ad');
 let D = document.getElementById('Di');
 let M = document.getElementById('Multi');
-let display = document.getElementById('display');
+let display = document.getElementById('answerdisplay');
 
 
 
-Di.addEventListener('click', calculate);
-Multi.addEventListener('click', calculat);
-Ad.addEventListener('click', calcula);
-Su.addEventListener('click', calcul);
+D.addEventListener('click', calculate);
+M.addEventListener('click', calculat);
+A.addEventListener('click', calcula);
+S.addEventListener('click', calcul);
 
 
 function calculate(){
@@ -20,7 +20,7 @@ function calculate(){
   let ill = document.getElementById('2number').value;
   let finalill = Number(ill)
   let answer = finalBill/finalill;
-  display.innerHTML = answer;
+  answerdisplay.innerHTML = answer;
   
 }
 
@@ -35,7 +35,7 @@ function calculat(){
   let ill = document.getElementById('2number').value;
   let finalill = Number(ill)
   let answer = finalBill*finalill;
-  display.innerHTML = answer;
+  answerdisplay.innerHTML = answer;
   
 }
 
@@ -48,7 +48,7 @@ function calcula(){
   let ill = document.getElementById('2number').value;
   let finalill = Number(ill)
   let answer = finalBill+finalill;
-  display.innerHTML = answer;
+  answerdisplay.innerHTML = answer;
   
 }
 
@@ -64,7 +64,7 @@ function calcul(){
   let ill = document.getElementById('2number').value;
   let finalill = Number(ill)
   let answer = finalBill-finalill;
-  display.innerHTML = answer;
+  answerdisplay.innerHTML = answer;
   
 }
 
