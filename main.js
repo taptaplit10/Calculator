@@ -16,7 +16,7 @@ function calculate(){
   let finalBill = Number(bill)
   let ill = document.getElementById('2number').value;
   let finalill = Number(ill)
-  let answer = finalBill/finalill;
+  let answer = finalBill / finalill;
   display.innerHTML = answer;
   
 }
@@ -31,7 +31,7 @@ function calculat(){
   let finalBill = Number(bill)
   let ill = document.getElementById('2number').value;
   let finalill = Number(ill)
-  let answer = finalBill*finalill;
+  let answer = finalBill * finalill;
   display.innerHTML = answer;
   
 }
@@ -44,7 +44,7 @@ function calcula(){
   let finalBill = Number(bill)
   let ill = document.getElementById('2number').value;
   let finalill = Number(ill)
-  let answer = finalBill+finalill;
+  let answer = finalBill + finalill;
   display.innerHTML = answer;
   
 }
@@ -60,7 +60,7 @@ function calcul(){
   let finalBill = Number(bill)
   let ill = document.getElementById('2number').value;
   let finalill = Number(ill)
-  let answer = finalBill-finalill;
+  let answer = finalBill - finalill;
   display.innerHTML = answer;
   
 }
